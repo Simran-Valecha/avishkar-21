@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <link rel="stylesheet" href="about_style.css">
+</head>
+<style>
+    h1{
+        font-size: 60px;
+        padding: 20px 60px;
+        justify-content: center;
+        margin: auto;
+    }
+    * {
+        box-sizing: border-box
+      }
+   
+</style>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="11.png" alt="logo">
+
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="exercise.html">Exercise</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <div class="rightNav">
+                <button class="btn btnsm">Log in/SignUp</button>
+        </div>
+    </nav>
+    <h1>WELCOME TO OUR BLOG SECTION!</h1>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" style="width:100%">
+          <div class="text">Healthy Lifestyle</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" style="width:100%">
+          <div class="text">Healthy diet</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://media.istockphoto.com/photos/smiling-mixed-race-girl-holding-an-apple-and-broccoli-in-her-hands-picture-id1299129816?b=1&k=20&m=1299129816&s=170667a&w=0&h=sMteOvzozrVGRPuXbaV4EonAp7Db0VnX8Scy7913zM0=" style="width:100%">
+          <div class="text">Healthy mind</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <div class="container_blog">
+        
+        <p id="para">On the off chance that you discover slimming down, getting thinner and settling on quality food decisions troublesome, check out it thusly: attempt to capitalize on the calories you eat. Keep away from food varieties that have a great deal of calories yet minimal healthy benefit—or "void" calories. Food varieties with a great deal of supplements (nutrients, minerals, complex sugars, lean protein, and sound fats) and generally couple of calories are considered solid. 
+
+            Presently ask yourself—is there something you are eating or drinking that you can remove? An extraordinary (and simple) initial step is to stopped sweet beverages, like pop, packaged lemonade or improved tea, or juices with sugar added. Attempt unsweetened teas and enhanced or plain water all things considered. Treats, cakes and confections are likewise loaded up with void calories, so ponder removing those of your eating routine as well. 
+            
+            On the off chance that you can remove 500 calories from sweet drinks or snacks each week, you might see an improvement in your weight of as much as 1 to 2 pounds per week. You may miss the sweet taste however it might assist you with realizing that your taste buds require some investment to change, so give yourself around fourteen days to become acclimated to it. <br> <br> You may experience difficulty discovering the inspiration to work out. The following are a couple of tips that might help: 
+
+            Start little. Indeed, even 5 minutes of strolling or some other action is a way of beginning. Attempt to zero in on venturing out or lifting that one weight. Who can say for sure, that 5 minutes can transform into 10 minutes, etc. 
+            
+            Put forward practical objectives. In case you're restricted in your actual capacities, doing leg lifts while sitting in your seat or other seat activities might be what's appropriate for you. Make certain to chat with your medical services supplier prior to beginning any new active work. 
+        </p>
+        <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <!-- onclick fumction helps in listening clicking call -->
+    </div>
+    <div class="container_img">
+      
+        <img src="https://images.unsplash.com/photo-1497888329096-51c27beff665?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80" alt="img" id="i1">
+
+        <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80" alt="img" id="i2">
+
+        <img src="https://media.istockphoto.com/photos/sports-and-healthy-food-border-fruits-vegetables-nuts-dumbbels-and-picture-id1276373630?b=1&k=20&m=1276373630&s=170667a&w=0&h=IeIR3o7KU4mLL6rHLexjfmlDm3DnNsRKq1Z6XHRKxkM=" alt="img" id="i3">
+    </div>
+    <div class="container_p">
+        <p id="pp1">EAT</p>
+        <P id="pp2">EXERCISE</P>
+        <P id="pp3">REPEAT</P>
+    </div>
+    
+      <script src="blog.js"></script>
+    <footer id="contact">
+
+        <p class="text-footer">
+          Copyright &copy; 2021- All rights reserved <br> We beleive in good customer care and service. So, if you have any queries or bookings do contact us. <br> &#9742;  +912345624276 <br> &#9993; tracal@gmail.com <br> &#x1F3E0; Civil Lines, Allahabad.
+          
+        </p>
+    </footer>
+</body>
+</html>
