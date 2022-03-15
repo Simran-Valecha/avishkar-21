@@ -1,0 +1,140 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+
+  /* Features Section */
+  
+  #features {
+    position: relative;
+    background-color: white;
+    padding-top: 5%;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .icon {
+    margin-left: 13rem;
+    align-content: center;
+    color: #FFDD33;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #FFC637;
+  }
+  
+  /* AboutUs Section */
+  
+  #AboutUs {
+    margin-top: 10%;
+    background-color: #FFDD33;
+  }
+  
+  .AboutUs-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .AboutUs{
+    text-align: center;
+    font-family: "Montserrat";
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.modal-login {
+	color: #636363;
+	width: 350px;
+}
+.modal-login .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-login .modal-header {
+	border-bottom: none;
+	position: relative;
+	justify-content: center;
+}
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+}
+.modal-login  .form-group {
+	position: relative;
+}
+.modal-login i {
+	position: absolute;
+	left: 13px;
+	top: 11px;
+	font-size: 18px;
+}
+.modal-login .form-control {
+	padding-left: 40px;
+}
+.modal-login .form-control:focus {
+	border-color: #00ce81;
+}
+.modal-login .form-control, .modal-login .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-login .hint-text {
+	text-align: center;
+	padding-top: 10px;
+}
+.modal-login .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+.modal-login .btn, .modal-login .btn:active {	
+	border: none;
+	background: #00ce81 !important;
+	line-height: normal;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: #00bf78 !important;
+}
+.modal-login .modal-footer {
+	background: #ecf0f1;
+	border-color: #dee4e7;
+	text-align: center;
+	margin: 0 -20px -20px;
+	border-radius: 5px;
+	font-size: 13px;
+	justify-content: center;
+}
+.modal-login .modal-footer a {
+	color: #999;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+    }
+  }
+
+  .end{
+    margin-bottom: 8%;
+  }
